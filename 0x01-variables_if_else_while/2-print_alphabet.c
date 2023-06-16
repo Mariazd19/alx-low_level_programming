@@ -1,17 +1,18 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
 
 /**
-* main - Entry point
-* 
- Return: Always 0 (success)
+*main - returns alphabets
+*
+Return: Always 0 (Success)
 */
-
 int main(void)
 {
-int lowerCase = 'a';
-while (lowerCase);
-lowerCase += 1;
+int ch = 'a';
+while (ch <= 'z')
+{
+putchar(ch);
+ch++;
 }
 putchar('\n');
 return (0);
