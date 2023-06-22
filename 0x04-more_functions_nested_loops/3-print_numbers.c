@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * mul - gives the product of a and b
- * @a: variable
- * @b: variable
+ * print_numbers - prints 0123456789\n
  *
- * Return: a * b
+ * Return: void
  */
 
-int mul(int a, int b)
+
+void print_numbers(void)
 {
-return (a * b);
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
